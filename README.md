@@ -27,6 +27,8 @@ conda activate climada_env
 apt install git
 apt install wget 
 conda install -c conda-forge jupyter
+conda install -c conda-forge lmoments3
+python -m pip install climada
 ```
 Now we have jupyter and git installed, get the workshop repo in docker VM home folder
 ```
@@ -41,7 +43,9 @@ jupyter notebook --ip 0.0.0.0 --port=8889 --no-browser --allow-root
 To copy files and folder from local computer to inside the docker, run following command
 
 ```
-sudo docker cp /home/folderpath $CONTAINERID:/home/
+sudo docker cp /home/ibf_workshop_data $CONTAINERID:/home/
 ``` 
+
+
 
 
