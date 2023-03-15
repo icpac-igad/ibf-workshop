@@ -44,7 +44,13 @@ To copy files and folder from local computer to inside the docker, run following
 
 ```
 sudo docker cp /home/ibf_workshop_data $CONTAINERID:/home/
-``` 
+```
+To rectify error related to no tiff file availabel in Climada asset exposure data
+```
+mkdir /root/climada/data/gpw-v4-population-count-rev11_2020_30_sec_tif/
+cp /home/ibf_workshop_data/exposure_data/asset/gpw_v4_population_count_rev11_2020_30_sec.tif /root/climada/data/gpw-v4-population-count-rev11_2020_30_sec_tif/
+
+```
 
 
 
