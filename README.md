@@ -3,6 +3,6 @@
 
 To access the JupyterHub
 
-aef041926ee784c5cbe4a3eb36aa4f9d-37294256.us-east-1.elb.amazonaws.com
+adb3151b6ce104401b82d90ed187daff-1612931695.us-east-1.elb.amazonaws.com
 
 
