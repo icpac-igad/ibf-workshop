@@ -3,9 +3,9 @@
 
 To access the JupyterHub
 
-http://34.74.61.81/hub/login
+https://howtotrainyourcomputer.in
 
-http://34.74.61.81/hub/user/secondname
+https://howtotrainyourcomputer.in/hub/login
 
 username: second name
 
